@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 //        TextView tv = ButterKnife.findById(view, R.id.activity_test_tv);
         int sum = 0;
         for (int i = 0; i < 20; i++) {
-            sum += i;
+            sum += i+i;
         }
 //        int i = 1 / 0;
 
