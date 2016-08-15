@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
     @OnItemClick(R.id.activity_test_listview)
     public void listviewItemClick() {
-
+          System.currentTimeMillis();
     }
 
 
